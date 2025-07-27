@@ -1,5 +1,5 @@
 data "aws_iam_role" "cluster_role" {
-    name = "AmazonEKSAutoClusterRole"
+    name = "eks-role"
 }
 
 resource "aws_iam_role_policy_attachment" "eks_cluster_policy" {
